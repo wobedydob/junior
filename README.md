@@ -10,7 +10,7 @@
 
 ## 📝 Usage
 You are free to use this project in any way, shape or form with given credit to the author. 
-You can find documentation in this Repository's Wiki tab.
+You can find documentation in this Repository's Wiki tab or [right here](https://github.com/wobedydob/junior/wiki).
 
 
 ## ✌ Credits
