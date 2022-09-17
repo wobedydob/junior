@@ -12,8 +12,7 @@ class ArrayHelper
 
         $types = [];
 
-        foreach($array as $item)
-        {
+        foreach ($array as $item) {
             $types[] = gettype($item);
         }
 
