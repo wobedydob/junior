@@ -6,6 +6,15 @@ namespace Helper;
 class ArrayHelper
 {
 
+    /** Checks if all values in the array are the same. */
+    public static function every(array $array): bool
+    {
+        return $array === array_filter($array, function ($item) use ($array) {
+                return ($item === $array[0]);
+            });
+
+    }
+
     /** Returns all data types found from the array items. */
     public static function types(array $array): array
     {
